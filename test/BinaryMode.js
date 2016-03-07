@@ -2,16 +2,13 @@
 // Licensed under the MIT license. See LICENSE file in the project root.
 
 
-// System
 import { Buffer } from "buffer";
 import fs from "fs-promise";
 import path from "path";
 
-// Packages
 import given from "mocha-testdata";
 import should from "should";
 
-// Project
 import BinaryMode from "../lib/BinaryMode";
 
 
