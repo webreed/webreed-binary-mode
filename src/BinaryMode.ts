@@ -17,7 +17,7 @@ import {ResourceType} from "webreed-core/lib/ResourceType";
  */
 export class BinaryMode implements Mode {
 
-  async readFile(path: string, resourceType: ResourceType): Promise<Object> {
+  public async readFile(path: string, resourceType: ResourceType): Promise<Object> {
     let data: Object = { };
     try {
       let str: string = await fs.readFile(path + ".meta", "utf8");
@@ -32,7 +32,7 @@ export class BinaryMode implements Mode {
     return data;
   }
 
-  writeFile(path: string, resource: Resource, resourceType: ResourceType): Promise<void> {
+  public writeFile(path: string, resource: Resource, resourceType: ResourceType): Promise<void> {
     let body = (resource && resource.body) || new Buffer(0);
     return fs.writeFile(path, body);
   }
