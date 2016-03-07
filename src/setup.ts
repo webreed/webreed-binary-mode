@@ -21,7 +21,7 @@ export type PluginOptions = { };
  * @param options
  *   Additional options for configuring the plugin instnace.
  */
-export default function setup(env: Environment, options?: PluginOptions): void {
+export default function (env: Environment, options?: PluginOptions): void {
   let instance = new BinaryMode();
 
   env.modes.set("binary", instance);
