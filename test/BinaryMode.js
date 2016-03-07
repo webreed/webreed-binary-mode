@@ -12,7 +12,7 @@ import given from "mocha-testdata";
 import should from "should";
 
 // Project
-import BinaryMode from "../src/BinaryMode";
+import BinaryMode from "../lib/BinaryMode";
 
 
 function getFixturePath(relativePath) {

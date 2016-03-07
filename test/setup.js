@@ -10,8 +10,8 @@ import should from "should";
 import Environment from "webreed-core/lib/Environment";
 
 // Project
-import BinaryMode from "../src/BinaryMode";
-import setup from "../src/setup";
+import BinaryMode from "../lib/BinaryMode";
+import setup from "../lib/setup";
 
 
 describe("#setup(env, options)", function () {
