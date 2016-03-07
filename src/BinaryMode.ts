@@ -7,15 +7,15 @@ import { Buffer } from "buffer";
 const fs = require("fs-promise");
 import * as yaml from "js-yaml";
 
-import Mode from "webreed-core/lib/plugin/Mode";
-import Resource from "webreed-core/lib/Resource";
-import ResourceType from "webreed-core/lib/ResourceType";
+import {Mode} from "webreed-core/lib/plugin/Mode";
+import {Resource} from "webreed-core/lib/Resource";
+import {ResourceType} from "webreed-core/lib/ResourceType";
 
 
 /**
  * Mode for reading and writing binary resource files.
  */
-export default class BinaryMode implements Mode {
+export class BinaryMode implements Mode {
 
   async readFile(path: string, resourceType: ResourceType): Promise<Object> {
     let data: Object = { };

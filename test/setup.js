@@ -5,9 +5,9 @@
 import given from "mocha-testdata";
 import should from "should";
 
-import Environment from "webreed-core/lib/Environment";
+import {Environment} from "webreed-core/lib/Environment";
 
-import BinaryMode from "../lib/BinaryMode";
+import {BinaryMode} from "../lib/BinaryMode";
 import setup from "../lib/setup";
 
 
