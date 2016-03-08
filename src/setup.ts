@@ -2,9 +2,9 @@
 // Licensed under the MIT license. See LICENSE file in the project root.
 
 
-import {BinaryMode} from "./BinaryMode";
-
 import {Environment} from "webreed-core/lib/Environment";
+
+import {BinaryMode} from "./BinaryMode";
 
 
 /**
