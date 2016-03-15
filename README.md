@@ -1,7 +1,11 @@
-# webreed-binary-mode [![Build Status](https://travis-ci.org/webreed/webreed-binary-mode.svg?branch=master)](https://travis-ci.org/webreed/webreed-binary-mode)
+# webreed-binary-mode
 
 A plugin for [webreed](https://github.com/webreed/webreed) that provides support for
 reading and writing binary resource files.
+
+[![Build Status](https://travis-ci.org/webreed/webreed-binary-mode.svg?branch=master)](https://travis-ci.org/webreed/webreed-binary-mode)
+[![Dependency Status](https://david-dm.org/webreed/webreed-binary-mode.svg)](https://david-dm.org/webreed/webreed-binary-mode)
+[![devDependency Status](https://david-dm.org/webreed/webreed-binary-mode/dev-status.svg)](https://david-dm.org/webreed/webreed-binary-mode#info=devDependencies)
 
 
 ## Contribution Agreement
