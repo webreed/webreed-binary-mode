@@ -1,6 +1,6 @@
 {
   "name": "webreed-binary-mode",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Binary mode plugin for webreed.",
   "repository": {
     "type": "git",
