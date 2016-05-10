@@ -9,11 +9,11 @@ import path from "path";
 import given from "mocha-testdata";
 import should from "should";
 
-import {BinaryMode} from "../lib/BinaryMode";
+import {BinaryMode} from "../../lib/BinaryMode";
 
 
 function getFixturePath(relativePath) {
-  return path.resolve(__dirname, "./fixtures/", relativePath);
+  return path.resolve(__dirname, "../fixtures/", relativePath);
 }
 
 

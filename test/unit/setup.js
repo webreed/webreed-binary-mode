@@ -7,8 +7,8 @@ import should from "should";
 
 import {Environment} from "webreed-core/lib/Environment";
 
-import setup from "../lib/setup";
-import {BinaryMode} from "../lib/BinaryMode";
+import setup from "../../lib/setup";
+import {BinaryMode} from "../../lib/BinaryMode";
 
 
 describe("#setup(env, options)", function () {
