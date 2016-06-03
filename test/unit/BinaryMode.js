@@ -1,15 +1,17 @@
 // Copyright (c) Rotorz Limited. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root.
 
+"use strict";
 
-import { Buffer } from "buffer";
-import fs from "fs-promise";
-import path from "path";
 
-import given from "mocha-testdata";
-import should from "should";
+const Buffer = require("buffer").Buffer;
+const fs = require("fs-promise");
+const path = require("path");
 
-import {BinaryMode} from "../../lib/BinaryMode";
+const given = require("mocha-testdata");
+const should = require("should");
+
+const BinaryMode = require("../../lib/BinaryMode").BinaryMode;
 
 
 function getFixturePath(relativePath) {
