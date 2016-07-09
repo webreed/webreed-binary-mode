@@ -1,11 +1,15 @@
 {
   "name": "webreed-binary-mode",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Binary mode plugin for webreed.",
   "repository": {
     "type": "git",
     "url": "https://github.com/webreed/webreed-binary-mode"
   },
+  "keywords": [
+    "webreed",
+    "webreed-plugin"
+  ],
   "main": "lib/setup.js",
   "typings": "lib/setup.d.ts",
   "scripts": {
